@@ -1,30 +1,31 @@
 package day02;
 
-public class ÀÚµ¿Â÷User
-{
-	public static void run(ÀÚµ¿Â÷ c)
-	{
+public class ìë™ì°¨User {
+	public static void run(ìë™ì°¨ c) {
 		c.run();
 	}
 
-	public static void main(String[] args)
-	{
-		ÀÚµ¿Â÷ c1 = new Æ÷Å©·¹ÀÎ();
-		ÀÚµ¿Â÷ c2 = new ¹ö½º();
-		ÀÚµ¿Â÷ c3 = new ½ºÆ÷Ã÷Ä«();
-
-		// ºÎ¸ğ´Â ÀÚ½ÄÀ» °¡¸®Å³ ¼ö ÀÖ´Ù.
-
-		// ¹ö½º b = new ÀÚµ¿Â÷(); //ºÒ°¡´ÉÇÏ´Ù!!
-
-		c2.´Ş¸®´Ù();
-		if (c3 instanceof ¹ö½º)
-		{
-			((¹ö½º) c3).¾È³»¹æ¼ÛÇÏ´Ù();
+	public static void main(String[] args) {
+		
+		
+		
+		ìë™ì°¨ c1 = new í¬í¬ë ˆì¸();
+		ìë™ì°¨ c2 = new ë²„ìŠ¤();
+		ìë™ì°¨ c3 = new ìŠ¤í¬ì¸ ì¹´();
+		
+		//ë¶€ëª¨ëŠ” ìì‹ì„ ê°€ë¦¬í‚¬ ìˆ˜ ìˆë‹¤. 
+		
+	//	ë²„ìŠ¤ b = new ìë™ì°¨(); //ë¶ˆê°€ëŠ¥í•˜ë‹¤!!  
+		
+		c2.ë‹¬ë¦¬ë‹¤();
+		if(c3 instanceof ë²„ìŠ¤) {
+			((ë²„ìŠ¤)c3).ì•ˆë‚´ë°©ì†¡í•˜ë‹¤();
 		}
-
+		
 		run(c3);
-
-		c3.´Ş¸®´Ù();
+		
+		c3.ë‹¬ë¦¬ë‹¤();
+		
 	}
+
 }
